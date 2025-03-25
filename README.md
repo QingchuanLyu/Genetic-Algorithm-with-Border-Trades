@@ -43,8 +43,9 @@ Analysis Notebooks: under /analysis/ directory
 
 *Intermediate data (.csv files) was stored in /csv-files directory. File names should be self-explanatory. Please refer to .to_csv() commands in analysis notebooks below if you’re not sure.
 
-1. Flip Flop analysis
+*1. Flip Flop analysis
 Available problem sizes: 7, 14, 28, 1,000
+
 1a. with Simulated Annealing (SA)
 FlipFlop-[problem size]-SA.ipynb analyzed flip flop problems with SA. For example, FlipFlop-7-SA.ipynb was for problem size 7.
 
@@ -54,7 +55,8 @@ FlipFlop-GA-[problem size].ipynb. For example, FlipFlop-GA-7.ipynb analyzed Flip
 1c. Genetic Algorithm with Border Trades (GAB)
 FlipFlop-GABF-[problem size].ipynb. For example, FlipFlop-GABF-7.ipynb analyzed Flip Flop problems of size 7 with GAB
 
-2. Job Scheduling with Breaks analysis
+*2. Job Scheduling with Breaks analysis
+
 2a. compare the performance of different border trade methods when problem size = 108
 GA: js-ga-108.ipynb
 GAB-A: js-GAB-mutate-tuned-A-108.ipynb
@@ -75,3 +77,13 @@ js-brute-force-verification.ipynb: a brute force evaluation is only applicable w
 
 2e. utility file
 utility.py: generate random tasks with a fixed seed
+
+
+@misc{lyu2025genetic,
+  author = {Lyu, Qingchuan},
+  title = {Genetic-Algorithm-with-Border-Trades},
+  year = {2025},
+  publisher = {GitHub},
+  howpublished = {\url{https://github.com/QingchuanLyu/Genetic-Algorithm-with-Border-Trades}},
+  note = {Accessed: day month year}
+}
