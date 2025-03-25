@@ -78,7 +78,8 @@ js-brute-force-verification.ipynb: a brute force evaluation is only applicable w
 2e. utility file
 utility.py: generate random tasks with a fixed seed
 
-
+BibTeX entry:
+```
 @misc{lyu2025genetic,
   author = {Lyu, Qingchuan},
   title = {Genetic-Algorithm-with-Border-Trades},
@@ -87,3 +88,4 @@ utility.py: generate random tasks with a fixed seed
   howpublished = {\url{https://github.com/QingchuanLyu/Genetic-Algorithm-with-Border-Trades}},
   note = {Accessed: day month year}
 }
+```
